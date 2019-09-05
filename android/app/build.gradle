@@ -159,7 +159,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
-apply plugin: 'com.dynatrace.tools.android'
+
 dynatrace {
     defaultConfig {
         applicationId 'd8f924b5-4e6b-4b3f-8b36-86caa5b726a6'
